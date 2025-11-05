@@ -3,17 +3,60 @@
 <head>
     <meta charset="UTF-8" />
     <title>Jacob Lickiss CSU JTC-372</title>
+    <link rel="icon" type="image/svg+xml" href="img/icon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="gamedev.html">GAMEDEV</a>
-        <a href="chainmail.html">CHAINMAIL</a>
-        <a href="biking.html">BIKING</a>
-        <a href="3d.html">3D MODELING/PRINTING</a>
-    </div>
-    <h1>Main Page</h1>
-    <p>This is the main page which will contain an overview of the site and navigation to other pages.</p>
+    <header>
+        <div class="banner">
+            <img src="img/icon.svg" alt="JL Icon" width="64" height="64">
+            <h1>Jacob Lickiss Projects</h1>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li class="left current"><a href="index.html">HOME</a></li>
+                <li class="left"><a href="gamedev.html">GAMEDEV</a></li>
+                <li class="left"><a href="chainmail.html">CHAINMAIL</a></li>
+                <li class="left"><a href="biking.html">BIKING</a></li>
+                <li class="left"><a href="3d.html">3D MODELING/PRINTING</a></li>
+                <li class="right"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="segment">
+            <img class="inline" src="img/profile.png" alt="Profile Image" width="128">
+            <p>Hi! I'm Jacob and this is my projects website. On this site, I have created a variety of pages which list some of my hobbies, and those pages provide both examples of what I've done with those hobbies and some instructions to get started with them yourself. Take a look around, follow some links, learn something new!</p>
+        </div>
+        <h3>Gamedev</h3>
+        <div class="segment">
+            <a href="gamedev.html" class="inline"><img src="img/gamedev.png" alt="Gamedev Image" width="128"></a>
+            <p>Gamedev, short for game development, is the process of making video games.</p>
+        </div>
+        <h3>Chainmail</h3>
+        <div class="segment">
+            <a href="chainmail.html" class="inline"><img src="img/chainmail.jpg" alt="Chainmail Image" width="128"></a>
+            <p>Chainmail is about using jump rings to form fabric out of rigid materials, not to be confused with spam letters and emails that demand forwarding!</p>
+        </div>
+        <h3>Biking</h3>
+        <div class="segment">
+            <a href="biking.html" class="inline"><img src="img/biking.jpg" alt="Biking Image" width="128"></a>
+            <p>Biking is a physical hobby which is about using a bicycle to explore, get some fresh air, and get around town.</p>
+        </div>
+        <h3>3D Modeling / Printing</h3>
+        <div class="segment">
+            <a href="3d.html" class="inline"><img src="img/3dprinting.jpg" alt="3D Printing Image" width="128"></a>
+            <p>Various software and hardware can be used to turn ideas into 3D shapes, then turn those shapes into real objects!</p>
+        </div>
+    </main>
+    <footer>
+        <address>
+            <p>Created by Jacob Lickiss for CSU JTC-372</p>
+            <a href="mailto:jacob.lickiss@colostate.edu?subject=CSU JTC-372 Site">
+                jacob.lickiss@colostate.edu
+            </a>
+        </address>
+    </footer>
 </body>
 </html>
